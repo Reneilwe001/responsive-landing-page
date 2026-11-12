@@ -364,6 +364,13 @@ nav a:hover {
     #contact {
         padding: 60px 5%;
     }
+
+    #about h2,
+    #services h2,
+    #portfolio h2,
+    #contact h2 {
+        font-size: 30px;
+    }
 }
 
 /* Form Success Message */
@@ -388,5 +395,21 @@ nav a:hover {
     to {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    #home {
+        animation: none;
+    }
+
+    *,
+    *::before,
+    *::after {
+        transition: none !important;
     }
 }
