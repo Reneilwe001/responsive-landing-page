@@ -4,10 +4,118 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <title>Responsive Landing page</title>
+    <title>Reneilwe Designs | Creative Studio</title>
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <nav>
+        <div class="logo">
+            Reneilwe Designs
+        </div>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <p class="intro">WELCOME TO RENEILWE DESIGNS</p>
+        <h1>Creative solutions for bold ideas.</h1>
+        <p>We bring ideas to life through creative design and innovative digital experiences that help brands stand out.</p>
+        <a href="#portfolio" class="btn">Explore our work</a>
+        <a href="#contact" class="btn-secondary">Let's Talk</a>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Reneilwe Designs is a creative design studio passionate about turning bold ideas into meaningful digital experiences. We combine creativity, innovation and thoughtful design to help businesses build a strong online presence. Our goal is to create unique designs that not only look good but also connect with people.</p>
+    </section>
+
+    <section id="services">
+        <h2>What We Do</h2>
+        <p>Creative solutions designed to help your brand grow and stand out.</p>
+        <div class="services-container">
+            <div class="service-card">
+                <h3>Web Design</h3>
+                <p>Creating beautiful, user-friendly and responsive websites.</p>
+            </div>
+            <div class="service-card">
+                <h3>Brand Identity</h3>
+                <p>Building unique visual identities that represent your business.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>Graphic Design</h3>
+                <p>Creating engaging visuals that communicate your ideas.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>Digital Experiences</h3>
+                <p>Designing interactive experiences that connect with audiences.</p>
+            </div>
+        </div>
+        <div id="portfolio">
+            <h2>Our Recent Work</h2>
+            <p>Take a look at some of our creative projects.</p>
+            <div class="portfolio-container">
+                <div class="portfolio-card">
+                    <h3>Website Design</h3>
+                    <p>Modern website design for a creative brand.</p>
+                </div>
+                <div class="portfolio-card">
+                    <h3>Brand Identity</h3>
+                    <p>A unique visual identity for a growing business.</p>
+                </div>
+                <div class="portfolio-card">
+                    <h3>Social Media Design</h3>
+                    <p>Creative social media visuals that capture attention.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Let's work together</h2>
+        <p>Have a project in mind? We'd love to hear from you.</p>
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <p id="success-message" class="success-message"></p>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-content">
+                <h2>Reneilwe Designs</h2>
+                <p>Turning bold ideas into creative experiences.</p>
+            </div>
+
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <p class="copyright">
+                &copy; Reneilwe Designs. All rights reserved.
+            </p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
